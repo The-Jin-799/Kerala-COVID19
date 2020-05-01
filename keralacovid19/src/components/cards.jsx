@@ -9,36 +9,32 @@ const StateCard = () => {
         </cardheader>
       </div>
       <cards>
-        <div class="row">
-          <div class="column ">
-            <div class="card confirmed">
-              <h3>Card 1</h3>
-              <p>Some text</p>
-              <p>Some text</p>
+        <div className="row">
+          <div className="column ">
+            <div className="card confirmed">
+              <h3>300</h3>
+              <p>Confirmed</p>
             </div>
           </div>
 
-          <div class="column ">
-            <div class="card recovered">
-              <h3>Card 2</h3>
-              <p>Some text</p>
-              <p>Some text</p>
+          <div className="column ">
+            <div className="card recovered">
+              <h3>200</h3>
+              <p>Recovered</p>
             </div>
           </div>
 
-          <div class="column">
-            <div class="card active">
-              <h3>Card 3</h3>
-              <p>Some text</p>
-              <p>Some text</p>
+          <div className="column">
+            <div className="card active">
+              <h3>96</h3>
+              <p>Active</p>
             </div>
           </div>
 
-          <div class="column ">
-            <div class="card death">
-              <h3>Card 4</h3>
-              <p>Some text</p>
-              <p>Some text</p>
+          <div className="column ">
+            <div className="card death">
+              <h3>4</h3>
+              <p>Deaths</p>
             </div>
           </div>
         </div>
