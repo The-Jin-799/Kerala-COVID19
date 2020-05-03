@@ -2,13 +2,11 @@ import React from "react";
 import "./styles/cards.css";
 const StateCard = () => {
   return (
-    <statecard>
-      <div>
-        <cardheader>
-          <h1>Complete Report</h1>
-        </cardheader>
+    <div className="stateCard">
+      <div className="cardheader">
+        <h1>Complete Report</h1>
       </div>
-      <cards>
+      <div className="cards">
         <div className="row">
           <div className="column ">
             <div className="card confirmed">
@@ -38,8 +36,8 @@ const StateCard = () => {
             </div>
           </div>
         </div>
-      </cards>
-    </statecard>
+      </div>
+    </div>
   );
 };
 

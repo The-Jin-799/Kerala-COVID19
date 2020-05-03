@@ -8,11 +8,17 @@ body {
   overflow-x: hidden;
 }
 
+.stateCard {
+  height: 100vh;
+}
+
+.stateCard h1 {
+  margin: 8px 30px;
+}
 /*cards styles*/
-cards {
-  margin: 5em 2em 0;
+.cards {
+  margin: 0em 2em 0;
   display: block;
-  height: 600px;
 }
 
 /* Float four columns side by side */
