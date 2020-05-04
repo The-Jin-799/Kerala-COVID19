@@ -47,6 +47,10 @@ body {
     display: block;
     margin-bottom: 20px;
   }
+  .updatedTime p {
+    margin-top: 20px;
+    font-size: small;
+  }
 }
 
 /* Style the counter cards */
@@ -117,6 +121,23 @@ cardheader h1 {
   cardheader {
     text-align: left;
   }
+}
+
+/*Last updated date styles*/
+.updatedTime {
+  display: block;
+  font: lighter;
+  font-style: italic;
+  font-size: medium;
+  text-align: left;
+  margin-top: 12px;
+  position: relative;
+}
+.updatedTime p {
+  position: absolute;
+  right: 3em;
+  top: -30px;
+  line-height: 2px;
 }
 /* May be come in use in future
 @element html, body and (min-scroll-y: 100vh) {

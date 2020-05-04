@@ -9,6 +9,7 @@ class StateCard extends Component {
       totalActive: "",
       totalDeath: "",
       totalRecovered: "",
+      updatedDate: "",
     };
   }
 
@@ -25,6 +26,17 @@ class StateCard extends Component {
         });
         console.log(response);
       });
+    fetch("http://localhost:8000/today/")
+      .then((response) => response.json())
+      .then((response) => {
+        console.log(response);
+        this.setState({
+          updatedDate: response.date,
+          todayActive: response.active,
+          todayDeath: response.death,
+          todayRecovered: response.recovered,
+        });
+      });
   }
 
   render() {
@@ -32,6 +44,9 @@ class StateCard extends Component {
       <div className="stateCard">
         <div className="cardheader">
           <h1>Complete Report</h1>
+        </div>
+        <div className="updatedTime">
+          <p>Last Updated: {this.state.updatedDate}</p>
         </div>
         <div className="cards">
           <div className="row">
