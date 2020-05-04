@@ -10,6 +10,9 @@ class StateCard extends Component {
       totalDeath: "",
       totalRecovered: "",
       updatedDate: "",
+      todayActive: "",
+      todayDeath: "",
+      todayRecovered: "",
     };
   }
 
