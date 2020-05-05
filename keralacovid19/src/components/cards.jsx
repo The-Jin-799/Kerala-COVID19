@@ -85,7 +85,7 @@ class StateCard extends Component {
               <div className="card confirmed">
                 <h3>
                   {this.state.isLoading
-                    ? "loading"
+                    ? "Loading"
                     : this.state.switchTotal
                     ? this.state.totalActive
                     : this.state.todayActive}
