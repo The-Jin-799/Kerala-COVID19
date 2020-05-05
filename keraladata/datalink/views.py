@@ -24,8 +24,8 @@ def total_status(request, format=None):
       de=de+d.death
       ta=ta+d.active
       tr=tr+d.recovered
-   ca=ta-tr
-   return Response({'total active':ta,'total recovered':tr,'currently active':ca,'total death':de})
+   ca=ta-tr-de
+   return Response({'totalactive':ta,'totalrecovered':tr,'currentlyactive':ca,'totaldeath':de})
 
 @api_view(['GET'])
 def today(request, format=None):
