@@ -3,9 +3,11 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
   max-width: 100%;
   overflow-x: hidden;
+  background: #4e4e50;
+  color: #ffffff;
 }
 
 .stateCard {
@@ -17,7 +19,7 @@ body {
 }
 /*cards styles*/
 .cards {
-  margin: 0em 2em 0;
+  margin: 2em 2em 0;
   display: block;
 }
 
@@ -83,11 +85,11 @@ body {
   color: #111111;
 }
 .confirmed {
-  background-color: #264b96;
+  background-color: #0080ff;
 }
 
 .recovered {
-  background-color: #006f3c;
+  background-color: #00a86b;
 }
 
 .active {
@@ -149,3 +151,55 @@ cardheader h1 {
   }
 }
 */
+
+/*switch styles*/
+#container {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+#main {
+  display: inline;
+}
+
+.total {
+  display: inline-block;
+  padding: 0.46em 1.6em;
+  border: 0.1em solid #ffffff;
+  border-right: 1px solid white;
+  text-align: center;
+  margin: 0;
+  font-size: large;
+  box-sizing: border-box;
+  border-radius: 20px 0 0 20px;
+  background: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.today {
+  font-size: large;
+  display: inline-block;
+  padding: 0.46em 1.6em;
+  border: 0.1em solid #111111;
+  text-align: center;
+  background: #111111;
+  margin: 0;
+  border-radius: 0 20px 20px 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.coloron {
+  background: #111111;
+  border: 0.1em solid #111111;
+  color: white;
+}
+
+.coloroff {
+  background: #ffffff;
+  border: 0.1em solid #ffffff;
+  color: black;
+}
