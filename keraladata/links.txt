@@ -1,0 +1,7 @@
+/admin - admin site
+/entry - api: full data
+/entry/date - api: date specific data (date : dd-mm-yyyy)
+/status - api: total status
+/today - api: today's new cases
+
+all api links should end with .json
