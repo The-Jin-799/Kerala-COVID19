@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Kerala-COVID19/static/css/main.8b3a28d5.chunk.css",
+    "main.js": "/Kerala-COVID19/static/js/main.c40a1771.chunk.js",
+    "main.js.map": "/Kerala-COVID19/static/js/main.c40a1771.chunk.js.map",
+    "runtime-main.js": "/Kerala-COVID19/static/js/runtime-main.c3f04adc.js",
+    "runtime-main.js.map": "/Kerala-COVID19/static/js/runtime-main.c3f04adc.js.map",
+    "static/js/2.b01b2376.chunk.js": "/Kerala-COVID19/static/js/2.b01b2376.chunk.js",
+    "static/js/2.b01b2376.chunk.js.map": "/Kerala-COVID19/static/js/2.b01b2376.chunk.js.map",
+    "index.html": "/Kerala-COVID19/index.html",
+    "precache-manifest.81b8968caac5932e6e8e81d95989e78c.js": "/Kerala-COVID19/precache-manifest.81b8968caac5932e6e8e81d95989e78c.js",
+    "service-worker.js": "/Kerala-COVID19/service-worker.js",
+    "static/css/main.8b3a28d5.chunk.css.map": "/Kerala-COVID19/static/css/main.8b3a28d5.chunk.css.map",
+    "static/js/2.b01b2376.chunk.js.LICENSE.txt": "/Kerala-COVID19/static/js/2.b01b2376.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c3f04adc.js",
+    "static/js/2.b01b2376.chunk.js",
+    "static/css/main.8b3a28d5.chunk.css",
+    "static/js/main.c40a1771.chunk.js"
+  ]
+}
