@@ -1,0 +1,32 @@
+.footer {
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #1a1a1d;
+  z-index: 150;
+}
+
+.dataSource {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    position: inherit;
+    height: 50px;
+    background-color: #1a1a1d;
+    z-index: 150;
+  }
+}
+
+.year {
+  position: relative;
+  left: 15px;
+  top: 15px;
+}

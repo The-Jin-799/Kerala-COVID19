@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./styles/cards.css";
-var styleToday = "";
-var styleTotal = "";
+import Footer from "./Footer";
+
 class StateCard extends Component {
   constructor(props) {
     super(props);
@@ -134,6 +134,7 @@ class StateCard extends Component {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }
