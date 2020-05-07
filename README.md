@@ -54,4 +54,4 @@ To start the local development server, in virtual environment run:
 
 `python manage.py runserver`
 
-This will start a local development server [localhost:8000](http://localhost:8000/ "localhost:8000") on  your browser.In **keraladata** folder you can find links.txt file. It contains all important url paths in this backend (it has no home page so [localhost:8000](http://localhost:8000/ "localhost:8000") will give error, you should append it with relevent paths eg admin/  [localhost:8000/admin](http://localhost:8000/admin) for admin page).
+This will start a local development server [localhost:8000](http://localhost:8000/ "localhost:8000") on  your browser.In **keraladata** folder you can find links.txt file. It contains all important url paths in this backend (it has no home page so [localhost:8000](http://localhost:8000/ "localhost:8000") will give error, you should append it with relevent paths eg [localhost:8000/admin](http://localhost:8000/admin) for admin page).
