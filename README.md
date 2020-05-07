@@ -30,3 +30,28 @@ You can see a folder **node modules** and file **package-lock.json** if node mod
 `npm start`
 
 This will start a local development server [localhost:3000](http://localhost:3000/ "localhost:3000") on  your browser. Now you can make your changes on the component files inside **src** directory.
+
+## Set up Django backend from this repository
+Hope you have [python virtual environment](https://docs.python.org/3/tutorial/venv.html) installed. Create a virtual environment with python3 (make sure that python version is not 3.7, as django is not stable in python3.7). I recomend python3.8 . To install necessary python packages (django, djangorestframework, django-cors-headers), in your virtual environment run:
+
+`pip install django djangorestframework django-cors-headers`
+
+Clone repository to your PC. django files are in **keraladata** folder.
+Change the working directory in the virtual environment to **keraladata**.
+Make sure that there is manage.py file in **keraladata**. In virtual environment run:
+
+`python manage.py makemigrations`
+
+and
+
+`python manage.py migrate`
+
+This will create necessary database files. To create admin user (to manage database in project's admin page), in the virtual environment run:
+
+`python manage.py createsuperuser`
+
+To start the local development server, in virtual environment run:
+
+`python manage.py runserver`
+
+This will start a local development server [localhost:8000](http://localhost:8000/ "localhost:8000") on  your browser.
